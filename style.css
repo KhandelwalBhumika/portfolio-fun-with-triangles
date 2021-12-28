@@ -1,0 +1,63 @@
+
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+
+.container-header{
+background-color: olivedrab;
+color: whitesmoke;
+padding: 1rem;
+ }
+
+.container-list{
+    padding: 1rem;
+    list-style: none;
+}
+
+.list{
+    display: inline;
+    padding: 1rem;
+}
+
+.container-list-link{
+    color: whitesmoke;
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+label{
+    font-size: large;
+}
+
+input{
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+    height: 30%;
+}
+
+button{
+    background-color: olivedrab;
+    padding: 0.5rem;
+    color: whitesmoke; 
+    font-size: large;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+button:hover {
+ opacity:0.6;
+text-align:justify;
+color:#000000;
+font-size:20px;
+font-weight:200;
+padding: 10px;
+}

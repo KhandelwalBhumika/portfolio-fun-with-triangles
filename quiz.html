@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quizstyle.css">
+</head>
+
+<body>
+
+    <nav class="container">
+        <div class="container-header">
+        <h1> Quiz on Triangle! 🧮 </h1>
+    <ul class="container-list">
+        <li class="list"><a class="container-list-link" href="index.html">Is it a triangle?</a>
+            <li class="list"><a class="container-list-link" href="quiz.html">Quiz on Triangle</a></li>
+            <li class="list"><a class="container-list-link" href="hypotenuse.html">Calculate Hypotenuse</a></li>
+            <li class="list"><a class="container-list-link" href="area.html">Calculate Area</a></li>
+    </ul>
+    </div>
+    </nav>
+    <br>
+
+    <form class="quiz-form">
+        <div class="question-container">
+
+            <p><u><b>NOTE:</b></u> For every right answer you will score +1 and for every wrong answer you will score -1.</p>
+
+            <p><b>Question1.</b>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p><br>
+            <label><input type="radio" name="question1" value="45°" /> 45° </label>
+            <label><input type="radio" name="question1" value="90°" /> 90° </label>
+            <label><input type="radio" name="question1" value="60°" /> 60° </label>
+
+
+            <p><b>Question2.</b>If a triangle has an angle of 90 degrees, what is it called?</p><br>
+            <label><input type="radio" name="question2" value="acute"/> acute </label>
+            <label><input type="radio" name="question2" value="obtuse" /> obtuse </label>
+            <label><input type="radio" name="question2" value="right-angled" /> right-angled </label>
+
+        </div>
+
+    </form>
+    <button id="submit-answer-btn">Submit Answer ✔️</button>
+    <div id="output"></div>
+
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
